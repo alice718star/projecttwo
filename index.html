@@ -17,16 +17,14 @@
     <link href="https://fonts.googleapis.com/css?family=Courgette|Great+Vibes|Marck+Script" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
-        #price,
-        #pricetwo,
-        #pricethree {
+        #price, #pricetwo, #pricethree, #priceul, #priceultwo, #priceulthree{
             color: deepskyblue;
         }
     </style>
 </head>
 
 <body>
-    <!--add the price info after Barnes & noble for example-->
+    <!--this is for Hunger Games-->
     <div class="modal fade" id="myModal" role="dialog">
         <div class="modal-dialog">
             <!-- modal content-->
@@ -38,18 +36,50 @@
                 </div>
                 <!-- modal body-->
                 <div class="modal-body">
-                    <a href="https://www.amazon.com/s/ref=nb_sb_noss?url=search-alias%3Dstripbooks&field-keywords=hunger+games&rh=n%3A283155%2Ck%3Ahunger+games"><button style="font-size:24px"><i class="fa fa-amazon"></i></button></a>
+                    <a href="https://www.amazon.com/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=hunger+games+books&rh=i%3Aaps%2Ck%3Ahunger+games+books"><button><i class="fa fa-amazon"></i></button></a>
                     <h2 id="price"></h2>
                     <br>
                     <br>
                     <br>
-                    <a href="https://www.target.com/s?searchTerm=the+hunger+games">Target</a>
+                    <a href="https://www.target.com/s?searchTerm=hunger+games">Target</a>
                     <h2 id="pricetwo"></h2>
                     <br>
                     <br>
                     <br>
-                    <a href="https://www.barnesandnoble.com/s/hunger+games?_requestid=6531399">Barnes & Noble</a>
+                    <a href="https://www.barnesandnoble.com/s/hunger+games?_requestid=9776456">Barnes & Noble</a>
                     <h2 id="pricethree"></h2>
+                </div>
+                <!-- modal footer-->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--underland-->
+    <div class="modal fade" id="myModalul" role="dialog">
+        <div class="modal-dialog">
+            <!-- modal content-->
+            <div class="modal-content">
+                <!-- modal header-->
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Buy from</h4>
+                </div>
+                <!-- modal body-->
+                <div class="modal-body">
+                    <a href="https://www.amazon.com/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=underland+chronicles+books&rh=i%3Aaps%2Ck%3Aunderland+chronicles+books"><button><i class="fa fa-amazon"></i></button></a>
+                    <h2 id="priceul"></h2>
+                    <br>
+                    <br>
+                    <br>
+                    <a href="https://www.thriftbooks.com/series/underland-chronicles/37420/">Thrift Books (Used) </a>
+                    <h2 id="priceultwo"></h2>
+                    <br>
+                    <br>
+                    <br>
+                    <a href="https://www.barnesandnoble.com/s/underland+chronicles?_requestid=9778912">Barnes & Noble</a>
+                    <h2 id="priceulthree"></h2>
                 </div>
                 <!-- modal footer-->
                 <div class="modal-footer">
@@ -196,7 +226,7 @@
                             <h3>GREGOR THE OVERLANDER</h3>
                             <!--modal popup-->
                             <!--button to trigger modal-->
-                            <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal" id="ul">BUY</button>
+                            <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModalul" id="ul">BUY</button>
                         </div>
                         <br>
                         <div class="underlandreviews">
@@ -216,7 +246,7 @@
                             <h3>GREGOR AND THE PROPHECY OF BANE</h3>
                             <!--modal popup-->
                             <!--button to trigger modal-->
-                            <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal" id="ul">BUY</button>
+                            <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModalul" id="ulbane">BUY</button>
                         </div>
                         <br>
                         <div class="underlandreviews">
@@ -236,12 +266,12 @@
                             <h3>GREGOR AND THE CURSE OF THE WARMBLOODS </h3>
                             <!--modal popup-->
                             <!--button to trigger modal-->
-                            <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal" id="ul">BUY</button>
+                            <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModalul" id="ulcurse">BUY</button>
                         </div>
                         <br>
                         <div class="underlandreviews">
                             <p>GREGOR AND THE CURSE OF THE WARMBLOODS “...immensely readable installment..."
-                            --The Horn Book Magazine</p>
+                                --The Horn Book Magazine</p>
                         </div>
                     </div>
                 </div>
@@ -257,12 +287,12 @@
                             <h3>GREGOR AND THE MARKS OF SECRET </h3>
                             <!--modal popup-->
                             <!--button to trigger modal-->
-                            <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal" id="ul">BUY</button>
+                            <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModalul" id="ulsecret">BUY</button>
                         </div>
                         <br>
                         <div class="underlandreviews">
                             <p>GREGOR AND THE MARKS OF SECRET "...will leave readers gasping..."
-                            --Kirkus Reviews, STARRED REVIEW</p>
+                                --Kirkus Reviews, STARRED REVIEW</p>
                         </div>
                     </div>
                 </div>
@@ -278,12 +308,12 @@
                             <h3>GREGOR AND THE CODE OF CLAW </h3>
                             <!--modal popup-->
                             <!--button to trigger modal-->
-                            <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal" id="ul">BUY</button>
+                            <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModalul" id="ulclaw">BUY</button>
                         </div>
                         <br>
                         <div class="underlandreviews">
                             <p>GREGOR AND THE CODE OF CLAW "...excellent acquisition for any library."
-                            --VOYA</p>
+                                --VOYA</p>
                         </div>
                     </div>
                 </div>
@@ -292,7 +322,7 @@
 
             <div id="menu3" class="tab-pane fade">
                 <h2>Children's books</h2>
-                
+
                 <div class="row hg">
                     <div class="col-md-3">
                         <img src="img/yotj_cover-330.jpg">
@@ -315,7 +345,7 @@
                         </div>
                     </div>
                 </div>
-                
+
                 <div class="row pt">
                     <div class="col-md-3">
                         <img src="img/book_cover-cmc-210rev.jpg">
@@ -326,7 +356,7 @@
                         <div class="yearjungledescription">
                             <div class="yearjungledescriptiona">
                                 <p>WHEN CHARLIE MCBUTTON LOST POWER "A clever, humorous story in rhyme."
-                                --School Library Journal</p>
+                                    --School Library Journal</p>
                             </div>
                             <div class="yearjungledescriptionb">
                                 <div class="row text-center">
@@ -380,22 +410,40 @@
             document.getElementById("pricetwo").innerHTML = "$8.79";
             document.getElementById("pricethree").innerHTML = "$10.12";
         };
-
         document.getElementById("cf").onclick = function() {
             document.getElementById("price").innerHTML = "$9.16";
             document.getElementById("pricetwo").innerHTML = "$11.99";
             document.getElementById("pricethree").innerHTML = "$10.99";
         };
-
-        document.getElementById("cf").onclick = function() {
+        document.getElementById("mj").onclick = function() {
             document.getElementById("price").innerHTML = "$10.39";
             document.getElementById("pricetwo").innerHTML = "$9.99";
             document.getElementById("pricethree").innerHTML = "$10.91";
         };
-
-
         document.getElementById("ul").onclick = function() {
-            document.getElementById("price").innerHTML = "$15";
+            document.getElementById("priceul").innerHTML = "$7.99";
+            document.getElementById("priceultwo").innerHTML = "$3.79";
+            document.getElementById("priceulthree").innerHTML = "$7.99";
+        };
+        document.getElementById("ulbane").onclick = function() {
+            document.getElementById("priceul").innerHTML = "$7.99";
+            document.getElementById("priceultwo").innerHTML = "$3.79";
+            document.getElementById("priceulthree").innerHTML = "$7.99";
+        };
+        document.getElementById("ulcurse").onclick = function() {
+            document.getElementById("priceul").innerHTML = "$7.99";
+            document.getElementById("priceultwo").innerHTML = "$3.79";
+            document.getElementById("priceulthree").innerHTML = "$7.99";
+        };
+        document.getElementById("ulsecret").onclick = function() {
+            document.getElementById("priceul").innerHTML = "$7.19";
+            document.getElementById("priceultwo").innerHTML = "$3.79";
+            document.getElementById("priceulthree").innerHTML = "$7.41";
+        };
+        document.getElementById("ulclaw").onclick = function() {
+            document.getElementById("priceul").innerHTML = "$9.21";
+            document.getElementById("priceultwo").innerHTML = "$3.79";
+            document.getElementById("priceulthree").innerHTML = "$7.41";
         };
     </script>
 </body>
