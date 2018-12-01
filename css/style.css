@@ -23,13 +23,13 @@ body {
     padding: 0% 5%;
 }
 
-
 .col-md-9 {
     padding: 0% 5%;
 }
 
 div {
     box-sizing: border-box;
+    word-wrap: normal;
 }
 
 .container h1 {
@@ -45,7 +45,6 @@ li a {
     font-size: 20px;
 }
 
-
 .container h2 {
     text-align: center;
     color: goldenrod;
@@ -58,10 +57,8 @@ li a {
 }
 
 .col-md-8 {
-    padding-left: 50px;
+    padding-left: 60px;
 }
-
-
 
 #home h2,
 #menu2 h2,
@@ -142,14 +139,13 @@ li a {
     flex: 1;
 }
 
-
 .hungergamesreviews p,
 .catchingfirereviews p,
 .hungergamesdescriptionb,
 .mockingjaydescriptionb p,
 .mockingjayreviews p,
 .underlandreviews p,
-.yearjungledescriptiona{
+.yearjungledescriptiona {
     font-style: italic;
     font-size: 16px;
     color: goldenrod;
@@ -161,13 +157,17 @@ li a {
     padding-right: 30px;
 }
 
-@media screen and (max-width: 1190px) {
+.mockingjaydescriptionbreview {
+    text-align: right;
+}
+
+@media screen and (max-width: 1100px) {
     .col-md-8 {
-        padding-left: 50px;
+        padding-left: 10%;
     }
 
     .col-md-9 {
-        padding-left: 90px;
+        padding-left: 10%;
     }
 }
 
@@ -194,6 +194,7 @@ li a {
     .col-md-12 {
         padding: 0% 1%;
     }
+
 }
 
 @media screen and (max-width: 375px) {
@@ -218,6 +219,4 @@ li a {
     .hungergamesdescriptionb {
         padding: 10%;
     }
-
-
 }
