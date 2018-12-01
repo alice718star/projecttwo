@@ -17,7 +17,7 @@
     <link href="https://fonts.googleapis.com/css?family=Courgette|Great+Vibes|Marck+Script" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
-        #price, #pricetwo, #pricethree, #priceul, #priceultwo, #priceulthree{
+        #price, #pricetwo, #pricethree, #priceul, #priceultwo, #priceulthree, #priceyg, #priceygtwo, #priceygthree, #pricech, #pricechtwo, #pricechthree{
             color: deepskyblue;
         }
     </style>
@@ -80,6 +80,70 @@
                     <br>
                     <a href="https://www.barnesandnoble.com/s/underland+chronicles?_requestid=9778912">Barnes & Noble</a>
                     <h2 id="priceulthree"></h2>
+                </div>
+                <!-- modal footer-->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--year of the jungle-->
+    <div class="modal fade" id="myModalyg" role="dialog">
+        <div class="modal-dialog">
+            <!-- modal content-->
+            <div class="modal-content">
+                <!-- modal header-->
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Buy from</h4>
+                </div>
+                <!-- modal body-->
+                <div class="modal-body">
+                    <a href="https://www.amazon.com/s/ref=nb_sb_noss_1?url=search-alias%3Daps&field-keywords=year+of+the+jungle&rh=i%3Aaps%2Ck%3Ayear+of+the+jungle"><button><i class="fa fa-amazon"></i></button></a>
+                    <h2 id="priceyg"></h2>
+                    <br>
+                    <br>
+                    <br>
+                    <a href="https://www.thriftbooks.com/w/year-of-the-jungle_suzanne-collins/1889779/#isbn=0545425166&idiq=27198776">Thrift Books (Used) </a>
+                    <h2 id="priceygtwo"></h2>
+                    <br>
+                    <br>
+                    <br>
+                    <a href="https://www.barnesandnoble.com/w/year-of-the-jungle-suzanne-collins/1117166230?ean=9780545425162">Barnes & Noble</a>
+                    <h2 id="priceygthree"></h2>
+                </div>
+                <!-- modal footer-->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--charlie-->
+    <div class="modal fade" id="myModalch" role="dialog">
+        <div class="modal-dialog">
+            <!-- modal content-->
+            <div class="modal-content">
+                <!-- modal header-->
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Buy from</h4>
+                </div>
+                <!-- modal body-->
+                <div class="modal-body">
+                    <a href="https://www.amazon.com/s/ref=nb_sb_noss_1?url=search-alias%3Daps&field-keywords=year+of+the+jungle&rh=i%3Aaps%2Ck%3Ayear+of+the+jungle"><button><i class="fa fa-amazon"></i></button></a>
+                    <h2 id="pricech"></h2>
+                    <br>
+                    <br>
+                    <br>
+                    <a href="https://www.thriftbooks.com/w/when-charlie-mcbutton-lost-power_suzanne-collins/489583/#isbn=0142408573&idiq=5434799">Thrift Books (Used) </a>
+                    <h2 id="pricechtwo"></h2>
+                    <br>
+                    <br>
+                    <br>
+                    <a href="https://www.barnesandnoble.com/w/when-charlie-mcbutton-lost-power-suzanne-collins/1103427804?ean=9780142408575#/">Barnes & Noble</a>
+                    <h2 id="pricechthree"></h2>
                 </div>
                 <!-- modal footer-->
                 <div class="modal-footer">
@@ -339,7 +403,7 @@
                                     <h3>YEAR OF THE JUNGLE</h3>
                                     <!--modal popup-->
                                     <!--button to trigger modal-->
-                                    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal" id="yg">BUY</button>
+                                    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModalyg" id="yg">BUY</button>
                                 </div>
                             </div>
                         </div>
@@ -363,7 +427,7 @@
                                     <h3>WHEN CHARLIE MCBUTTON LOST POWER </h3>
                                     <!--modal popup-->
                                     <!--button to trigger modal-->
-                                    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal" id="yg">BUY</button>
+                                    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModalch" id="ch">BUY</button>
                                 </div>
                             </div>
                         </div>
@@ -445,6 +509,17 @@
             document.getElementById("priceultwo").innerHTML = "$3.79";
             document.getElementById("priceulthree").innerHTML = "$7.41";
         };
+        document.getElementById("yg").onclick = function() {
+            document.getElementById("priceyg").innerHTML = "$12.00";
+            document.getElementById("priceygtwo").innerHTML = "$17.09";
+            document.getElementById("priceygthree").innerHTML = "$7.41";
+        };
+        document.getElementById("ch").onclick = function() {
+            document.getElementById("pricech").innerHTML = "Starting at $5.99";
+            document.getElementById("pricechtwo").innerHTML = "Starting at $3.79";
+            document.getElementById("pricechthree").innerHTML = "Starting at $7.19";
+        };
+
     </script>
 </body>
 
