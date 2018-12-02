@@ -18,7 +18,7 @@ body {
 .navbar-brand h1 {
     margin-left: 20px;
     color: white;
-    font-size: 80px;
+    font-size: 90px;
     text-shadow: 5px 5px black;
     font-weight: bold;
     font-family: 'Great Vibes', cursive;
@@ -49,7 +49,6 @@ div {
     word-wrap: normal;
 }
 
-
 li a {
     font-size: 20px;
 }
@@ -57,6 +56,8 @@ li a {
 .container h2 {
     text-align: center;
     color: goldenrod;
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
 }
 
 .row,
@@ -66,7 +67,11 @@ li a {
 }
 
 .col-md-8 {
-    padding-left: 60px;
+    padding-left: 80px;
+}
+
+.col-md-9 {
+    padding-left: 80px;
 }
 
 #home h2,
@@ -87,24 +92,24 @@ li a {
     color: black;
 }
 
-.modal-body > button {
-    background-color: black;
-}
-
 .modal-body a {
     color: goldenrod;
     font-weight: bold;
     font-size: 24px;
 }
 
-/*this was added for the row*/
-.hg {
-    margin-top: 50px;
+.modal-header {
+    background-color: black;
 }
 
-.pt {
-    margin-top: 150px;
+.modal-body {
+    text-align: center;
 }
+
+.modal-body h2 {
+    font-size: 20px;
+}
+
 
 .row h3 {
     font-weight: bolder;
@@ -118,6 +123,29 @@ li a {
 
 .col-md-12 tab-content > row {
     padding-top: 50px;
+    background-color: aqua;
+}
+
+/*this was added for the row*/
+.hg {
+    margin-top: 50px;
+}
+
+.pt {
+    margin-top: 150px;
+}
+
+.hg,
+.pt {
+    padding: 3% 5%;
+}
+
+.hg:hover {
+    background-image: url(../img/amanda-mocci-90505-unsplash1400newnew.jpg);
+}
+
+.pt:hover {
+    background-image: url(../img/amanda-mocci-90505-unsplash1400newnew.jpg);
 }
 
 .mockingjaydescriptiona li {
@@ -189,7 +217,6 @@ li a {
         margin-bottom: 20px;
     }
 
-
     .col-md-4,
     .col-md-3 {
         display: flex;
@@ -215,10 +242,6 @@ li a {
 }
 
 @media screen and (max-width: 375px) {
-    .container {
-        border: 1px solid white;
-    }
-
     .col-md-4 {
         display: flex;
         justify-content: center;
@@ -240,7 +263,7 @@ li a {
     .navbar-brand h1 {
         display: contents;
         font-size: 40px;
-        color: grey;
+        color: #43464B;
         text-shadow: none;
         font-weight: bold;
         font-family: 'Great Vibes', cursive;
