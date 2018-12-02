@@ -15,7 +15,7 @@ body {
     font-weight: bold;
 }
 
-.navbar-brand h1{
+.navbar-brand h1 {
     margin-left: 20px;
     color: white;
     font-size: 80px;
@@ -28,11 +28,11 @@ body {
     color: goldenrod;
 }
 
-footer p{
+footer p {
     text-align: center;
 }
 
-.container{
+.container {
     margin-top: 100px;
 }
 
@@ -181,10 +181,11 @@ li a {
 }
 
 @media screen and (max-width: 850px) {
-    .container{
+    .container {
         margin-top: 40px;
     }
-    .container h2{
+
+    .container h2 {
         margin-bottom: 20px;
     }
 
@@ -207,13 +208,14 @@ li a {
     .col-md-12 {
         padding: 0% 1%;
     }
-    .navbar-brand h1{
+
+    .navbar-brand h1 {
         font-size: 60px;
     }
 }
 
 @media screen and (max-width: 375px) {
-    .container{
+    .container {
         border: 1px solid white;
     }
 
@@ -234,13 +236,13 @@ li a {
     .hungergamesdescriptionb {
         padding: 10%;
     }
-    
-    .navbar-brand h1{
-    display: contents;
-    font-size: 40px;
-    color: grey;
-    text-shadow: none;
-    font-weight: bold;
-    font-family: 'Great Vibes', cursive;
+
+    .navbar-brand h1 {
+        display: contents;
+        font-size: 40px;
+        color: grey;
+        text-shadow: none;
+        font-weight: bold;
+        font-family: 'Great Vibes', cursive;
     }
 }
