@@ -9,12 +9,6 @@
     <!--Some custom CSS for reference only-->
     <link rel="stylesheet" href="css/style.css">
 
-    <style type="text/css">
-        .carousel-inner>.item>img {
-            margin: 0px auto;
-        }
-    </style>
-
     <link href="https://fonts.googleapis.com/css?family=Courgette|Great+Vibes|Marck+Script" rel="stylesheet">
     <style>
         body{
@@ -22,7 +16,6 @@
             color: black;
             background-position: center;
             background-repeat: no-repeat;
-            background-attachment: fixed;
         }
         .profilepic img{
             border-radius: 50%;
@@ -38,30 +31,29 @@
             background-color: #FFFDD0;
             padding: 1% 3% 3% 3%;
         }
-    
     </style>
 </head>
 
 <body>
     <!--mobile friendly hamburger menu-->
     <nav class="navbar navbar-default affix-top">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
-                <span class="glyphicon glyphicon-menu-hamburger"></span>
-            </button>
-            <a class="navbar-brand" href="index.html">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+				<span class="glyphicon glyphicon-menu-hamburger"></span>
+			</button>
+			<a class="navbar-brand" href="index.html">
                 <h1>Suzanne Collins</h1>
             </a>
-        </div>
-        <div class="collapse navbar-collapse" id="navbar-collapse">
-            <ul class="nav navbar-nav navbar-right">
-                <li class="active"><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
+		</div>
+		<div class="collapse navbar-collapse" id="navbar-collapse">
+			<ul class="nav navbar-nav navbar-right">
+                <li><a href="index.html">Home</a></li>
+                <li class="active"><a href="about.html">About</a></li>
                 <li><a href="gallery.html">Gallery</a></li>
-                <li><a href="#">Enquiries</a></li>
             </ul>
-        </div>
-    </nav>
+		</div>
+	</nav>
+    
     <div class="container aboutcontainer">
 
         <div class="row">
@@ -102,5 +94,8 @@
     <footer>
         <p>Disclaimer: This site is not being used intentionally for commercial purposes and was created for a class project.</p>
     </footer>
+    
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 </body>
 </html>

@@ -221,9 +221,8 @@ li a {
 
 @media screen and (max-width: 850px) {
     .container {
-        margin-top: 40px;
+        margin-top: 50px;
     }
-
     .container h2 {
         margin-bottom: 20px;
     }
@@ -252,7 +251,7 @@ li a {
     }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 767px) {
     .col-md-4 {
         display: flex;
         justify-content: center;
@@ -263,7 +262,9 @@ li a {
     .yearjungledescription {
         flex-direction: column;
     }
-
+    .mockingjaydescriptionbreview {
+        text-align: justify;
+    }
     .hgsum,
     .col-md-9,
     .col-md-8,
