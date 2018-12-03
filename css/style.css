@@ -3,15 +3,6 @@
     margin: 0px;
 }
 
-body {
-    background-image: url(../img/amanda-mocci-90505-unsplash1600.jpg);
-    background-repeat: repeat;
-    font-family: 'Raleway', sans-serif;
-    color: white;
-    background-attachment: fixed;
-}
-
-
 .navbar-brand {
     font-family: 'Great Vibes', cursive;
     font-weight: bold;
@@ -253,10 +244,6 @@ li a {
 }
 
 @media screen and (max-width: 767px) {
-    body {
-        background-image: url(../img/typewriter-801921_400.jpg);
-    }
-
     .col-md-4 {
         display: flex;
         justify-content: center;
