@@ -7,10 +7,11 @@ body {
     background-image: url(../img/amanda-mocci-90505-unsplash1600.jpg);
     background-repeat: repeat;
     font-family: 'Raleway', sans-serif;
-    color: white;
+    color: #fff;
     background-attachment: fixed;
 }
 
+/*navbar*/
 .navbar-brand {
     font-family: 'Great Vibes', cursive;
     font-weight: bold;
@@ -26,7 +27,11 @@ body {
 }
 
 .navbar-header {
-    color: goldenrod;
+    color: #DAA520;
+}
+
+li a {
+    font-size: 20px;
 }
 
 footer p {
@@ -35,19 +40,6 @@ footer p {
 
 footer {
     padding-top: 150px;
-
-}
-
-.container {
-    margin-top: 100px;
-}
-
-.col-md-12 {
-    padding: 0% 5%;
-}
-
-.col-md-9 {
-    padding: 0% 5%;
 }
 
 div {
@@ -55,15 +47,28 @@ div {
     word-wrap: normal;
 }
 
-li a {
-    font-size: 20px;
+.container {
+    margin-top: 100px;
 }
 
 .container h2 {
     text-align: center;
-    color: goldenrod;
+    color: #DAA520;
     font-family: 'Raleway', sans-serif;
     font-size: 24px;
+}
+
+.col-md-12 {
+    padding: 0% 5%;
+}
+
+.col-md-12 tab-content > row {
+    padding-top: 50px;
+}
+
+.col-md-9 {
+    padding: 0% 5%;
+    padding-left: 80px;
 }
 
 .row,
@@ -76,10 +81,6 @@ li a {
     padding-left: 80px;
 }
 
-.col-md-9 {
-    padding-left: 80px;
-}
-
 #home h2,
 #menu2 h2,
 #menu3 h2 {
@@ -87,11 +88,11 @@ li a {
 }
 
 .tab-content h2 {
-    color: white;
+    color: #fff;
     font-weight: bolder;
     font-family: 'Raleway', sans-serif;
     font-size: 34px;
-    color: goldenrod;
+    color: #DAA520;
 }
 
 .modal-content h4 {
@@ -99,13 +100,13 @@ li a {
 }
 
 .modal-body a {
-    color: goldenrod;
+    color: #DAA520;
     font-weight: bold;
     font-size: 24px;
 }
 
 .modal-header {
-    background-color: black;
+    background-color: #000000;
 }
 
 .modal-body {
@@ -116,7 +117,6 @@ li a {
     font-size: 20px;
 }
 
-
 .row h3 {
     font-weight: bolder;
     font-size: 28px;
@@ -125,11 +125,6 @@ li a {
 
 .row p {
     font-size: 18px;
-}
-
-.col-md-12 tab-content > row {
-    padding-top: 50px;
-    background-color: aqua;
 }
 
 /*this was added for the row*/
@@ -191,7 +186,7 @@ li a {
 .yearjungledescriptiona {
     font-style: italic;
     font-size: 16px;
-    color: goldenrod;
+    color: #DAA520;
     font-weight: bold;
     text-shadow: 2px 2px black;
 }
@@ -204,77 +199,67 @@ li a {
     text-align: right;
 }
 
+/*about page*/
+.profilepic img {
+    border-radius: 50%;
+    float: right;
+}
+
+.iphoneprofilepic img {
+    border-radius: 50%;
+}
+
 .iphoneprofilepic {
     display: none;
 }
 
+.aboutcontainer {
+    margin-top: 150px;
+}
+
+.aboutcol {
+    background-color: #FFFDD0;
+    padding: 1% 3% 3% 3%;
+}
 
 @media screen and (max-width: 1100px) {
-    .col-md-8 {
-        padding-left: 10%;
-    }
-
-    .col-md-9 {
+    .col-md-8, .col-md-9 {
         padding-left: 10%;
     }
 }
 
 @media screen and (max-width: 850px) {
+    .navbar-brand h1 {
+        font-size: 60px;
+    }
     .container {
         margin-top: 50px;
     }
-
     .container h2 {
         margin-bottom: 20px;
     }
-
     .col-md-4,
     .col-md-3 {
         display: flex;
         justify-content: center;
     }
-
     .col-md-8 {
         padding-right: 40px;
     }
-
     .col-md-9 {
         padding-right: 60px;
         padding: 0% 3%;
     }
-
     .col-md-12 {
         padding: 0% 1%;
     }
-
-    .navbar-brand h1 {
-        font-size: 60px;
+    /*about page*/
+    form {
+        margin-top: 10px;
     }
 }
 
 @media screen and (max-width: 450px) {
-    .col-md-4 {
-        display: flex;
-        justify-content: center;
-    }
-
-    .mockingjaydescription,
-    .hungergamesdescription,
-    .yearjungledescription {
-        flex-direction: column;
-    }
-
-    .mockingjaydescriptionbreview {
-        text-align: justify;
-    }
-
-    .hgsum,
-    .col-md-9,
-    .col-md-8,
-    .hungergamesdescriptionb {
-        padding: 10%;
-    }
-
     .navbar-brand h1 {
         display: contents;
         font-size: 40px;
@@ -283,11 +268,28 @@ li a {
         font-weight: bold;
         font-family: 'Great Vibes', cursive;
     }
-
+    .col-md-4 {
+        display: flex;
+        justify-content: center;
+    }
+    .hgsum,
+    .col-md-9,
+    .col-md-8,
+    .hungergamesdescriptionb {
+        padding: 10%;
+    }
+    .mockingjaydescription,
+    .hungergamesdescription,
+    .yearjungledescription {
+        flex-direction: column;
+    }
+    .mockingjaydescriptionbreview {
+        text-align: justify;
+    }
+    /*aboutpage*/
     .profilepic img {
         display: none;
     }
-
     .iphoneprofilepic {
         display: flex;
         justify-content: center;
