@@ -36,10 +36,13 @@ li a {
 
 footer p {
     text-align: center;
+    font-weight: bold;
 }
 
 footer {
     padding-top: 150px;
+    color: #fff;
+    font-weight: bold;
 }
 
 div {
